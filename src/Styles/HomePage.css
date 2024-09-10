@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #56647e;
+  margin-top: 3%;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  color: #56647e;
+}
+
+.topbar-mrg {
+  /* border: 2px solid black; */
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+button.bg-black:hover {
+  background-color: #333;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.get-started-btn {
+  background-color: black;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.get-started-btn:hover p {
+  color: black;
+}
+
+button.bg-gray-200:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.backgroundimage {
+  background-image: url("../assets/icon/bgone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
